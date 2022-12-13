@@ -72,15 +72,16 @@ l.load("../fonts/Dark Magic_Regular.json", function(font) {
 
                 const xMid = -0.5 * (geometry.boundingBox.max.x - geometry.boundingBox.min.x);
 
-                geometry.translate(xMid, 0, 0);
+                geometry.translate(xMid, xMid, xMid);
 
                 // make shape ( N.B. edge view not visible )
 
                 const text = new THREE.Mesh(geometry, matDark);
                 const text1 = new THREE.Mesh(geometry, matLite)
-                text.position.z = -100;
-                scene.add(text);
+                text.position.z = -50;
+                text1.position.z = -100
                 scene.add(text1)
+                scene.add(text);
 
 
             }
