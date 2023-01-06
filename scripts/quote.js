@@ -62,6 +62,27 @@ const particleSystem = new THREE.Points(particlesGeometry, particlesMaterial);
 //adding the particles to the scene
 scene.add(particleSystem)
 
+//LOADING BOOK MODEL
+let book;
+const loader = new THREE.GLTFLoader();
+
+loader.load('./assets/book/scene.gltf', (gltf) => {
+    book = gltf.scene;
+    scene.add(book);
+}, function(xhr) {
+    console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+}, function(error) {
+    console.error(error);
+});
+
+// book.scale.set(0.1, 0.1, 0.1);
+// book.position.set(0, 0, 0);
+
+console.log(book)
+if (book) {
+    scene.add(book);
+}
+
 
 //TEXT LOADING
 const l = new THREE.FontLoader()
