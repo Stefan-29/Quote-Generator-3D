@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mozilla Hubs Challenge - Wizard’s Library
+* source:	https://sketchfab.com/3d-models/mozilla-hubs-challenge-wizards-library-36ce7f88393749caaed5d8b700f7b5d1
+* author:	mediochrea (https://sketchfab.com/mediochrea)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mozilla Hubs Challenge - Wizard’s Library" (https://sketchfab.com/3d-models/mozilla-hubs-challenge-wizards-library-36ce7f88393749caaed5d8b700f7b5d1) by mediochrea (https://sketchfab.com/mediochrea) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

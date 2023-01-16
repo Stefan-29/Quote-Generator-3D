@@ -1,24 +1,24 @@
 {
-  "dependencies": {
-    "three": "^0.147.0"
-  },
-  "name": "quote-generator-3d",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Stefan-29/Quote-Generator-3D.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Stefan-29/Quote-Generator-3D/issues"
-  },
-  "homepage": "https://github.com/Stefan-29/Quote-Generator-3D#readme",
-  "description": ""
+    "dependencies": {
+        "three": "^0.147.0"
+    },
+    "name": "quote-generator-3d",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Stefan-29/Quote-Generator-3D.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Stefan-29/Quote-Generator-3D/issues"
+    },
+    "homepage": "https://github.com/Stefan-29/Quote-Generator-3D#readme",
+    "description": ""
 }
