@@ -17,6 +17,8 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+document.getElementById('myAudio').play();
+
 // RESIZING HANDLER
 
 function onWindowResize() {
@@ -215,6 +217,12 @@ l.load("./fonts/Dark Magic_Regular.json", function(font) {
     //Add the group to the scene
     scene.add(group);
     renderer.render(scene, cam);
+});
+
+addEventListener('keydown', (e) => {
+    if (e.key=='e') {
+        document.location = 'index.html'
+    }
 });
 
 function animate() {
