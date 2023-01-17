@@ -53,7 +53,7 @@ light.intensity = 100000;
 light.position.set( 0, 10, 4 );
 // light.castShadow = true; // default false
 scene.add(light);
-scene.add(helper);
+// scene.add(helper);
 
 
 
